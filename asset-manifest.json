@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.83c3d960.css",
+    "main.js": "/static/js/main.c98409a8.js",
+    "static/media/logo.png": "/static/media/logo.8f5e9d34c562a9c28ea4.png",
+    "static/media/MKTFY.png": "/static/media/MKTFY.5ba1d328798df4357c97.png",
+    "static/media/E-commerce.png": "/static/media/E-commerce.c705670e072fd37078d1.png",
+    "index.html": "/index.html",
+    "main.83c3d960.css.map": "/static/css/main.83c3d960.css.map",
+    "main.c98409a8.js.map": "/static/js/main.c98409a8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83c3d960.css",
+    "static/js/main.c98409a8.js"
+  ]
+}
