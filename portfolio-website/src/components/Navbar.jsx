@@ -3,6 +3,7 @@ import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logo.png'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     const[nav,setNav] = useState(false)
@@ -17,26 +18,40 @@ function Navbar() {
         <div>
             {/* navbar menu */}
             <ul className='hidden md:flex justify-end'>
-                <li className='text-amber-700'>Home</li>
-                <li className='text-amber-700'>About</li>
-                <li className='text-amber-700'>Experience</li>
-                <li className='text-amber-700'>Projects</li>
-                <li className='text-amber-700'>Contact</li>
+                <Link to='/'>
+                    <li className='text-amber-700'>Home</li>
+                </Link>
+                <Link to='/about'>
+                    <li className='text-amber-700'>About</li>
+                </Link>
+                <Link to='/projects'>
+                    <li className='text-amber-700'>Projects</li>
+                </Link>                              
+                <Link to='/contact'>
+                    <li className='text-amber-700'>Contact</li>
+                </Link>
             </ul>
         </div>
         <div onClick={handleClick} className='md:hidden z-10 cursor-pointer'>
             {/* Hamburger menu */}
-            {!nav ? <FaBars/> : <FaTimes/>}
+            {!nav ? <FaBars className='text-amber-700'/> : <FaTimes/>}
         </div>
         
         {/* Mobile menu when hamber menu is clicked*/}
         <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <ul>
-                <li className='py-6 text-4xl text-amber-700'>Home</li>
-                <li className='py-6 text-4xl text-amber-700'>About</li>
-                <li className='py-6 text-4xl text-amber-700'>Experience</li>
-                <li className='py-6 text-4xl text-amber-700'>Projects</li>
-                <li className='py-6 text-4xl text-amber-700'>Contact</li>
+            <Link to='/'>
+                    <li className='text-amber-700'>Home</li>
+                </Link>
+                <Link to='/about'>
+                    <li className='text-amber-700'>About</li>
+                </Link>
+                <Link to='/projects'>
+                    <li className='text-amber-700'>Projects</li>
+                </Link>                               
+                <Link to='/contact'>
+                    <li className='text-amber-700'>Contact</li>
+                </Link>
             </ul>
         </div>
 
