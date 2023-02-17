@@ -13,8 +13,8 @@ function NetCoreProjects() {
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='h-[80px]'></div>
             <div className='pb-8'>
-                <text className='text-4xl font-bold inline border-b-4 border-amber-700'>.Net Projects</text><br/>
-                <p className='py-6'>Check out some of my recent .Net projects. <br/>
+                <text className='text-4xl font-bold inline border-b-4 border-amber-700'>.NET Projects</text><br/>
+                <p className='py-6'>Check out some of my recent .NET projects. <br/>
                 To look at the code, please hover over the image and click the github link</p>
             </div>
 

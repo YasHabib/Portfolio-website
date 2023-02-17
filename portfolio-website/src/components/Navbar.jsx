@@ -21,12 +21,12 @@ function Navbar() {
                 <Link to='/'>
                     <li className='text-amber-700'>Home</li>
                 </Link>
-                <Link to='/about'>
-                    <li className='text-amber-700'>About</li>
-                </Link>
                 <Link to='/projects'>
                     <li className='text-amber-700'>Projects</li>
-                </Link>                              
+                </Link> 
+                <Link to='/about'>
+                    <li className='text-amber-700'>About</li>
+                </Link>                             
                 <Link to='/contact'>
                     <li className='text-amber-700'>Contact</li>
                 </Link>
@@ -40,17 +40,17 @@ function Navbar() {
         {/* Mobile menu when hamber menu is clicked*/}
         <div className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
             <ul>
-            <Link to='/'>
-                    <li className='text-amber-700'>Home</li>
-                </Link>
-                <Link to='/about'>
-                    <li className='text-amber-700'>About</li>
+                <Link to='/'>
+                    <li className='text-amber-700 py-6 text-4xl'>Home</li>
                 </Link>
                 <Link to='/projects'>
-                    <li className='text-amber-700'>Projects</li>
-                </Link>                               
+                    <li className='text-amber-700 py-6 text-4xl'>Projects</li>
+                </Link> 
+                <Link to='/about'>
+                    <li className='text-amber-700 py-6 text-4xl'>About</li>
+                </Link>                              
                 <Link to='/contact'>
-                    <li className='text-amber-700'>Contact</li>
+                    <li className='text-amber-700 py-6 text-4xl'>Contact</li>
                 </Link>
             </ul>
         </div>
@@ -65,12 +65,12 @@ function Navbar() {
                 <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-slate-800'>
                     <a className='flex justify-between items-center w-full' href='https://github.com/YasHabib?tab=repositories' target={'_blank'}>Github <FaGithub size={30}/> </a>
                 </li>
-                <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300'>
-                    <a className='flex justify-between items-center w-full' href='/' target={'_blank'}>Email <HiOutlineMail size={30}/> </a>
+                <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]' >
+                    <a className='flex justify-between items-center w-full' href='mailto:yasin_habib@outlook.com' target={'_blank'}>Email <HiOutlineMail size={30}/> </a>
                 </li>
-                <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300'>
-                    <a className='flex justify-between items-center w-full' href='/' target={'_blank'}>Resume <BsFillPersonLinesFill size={30}/> </a>
-                </li>
+                {/* <li className='w-[140px] h-[60px] flex justify-between items-center ml-[-80px] hover:ml-[-10px] duration-300'>
+                    <a className='flex justify-between items-center w-full' href='' target={'_blank'}>Resume <BsFillPersonLinesFill size={30}/> </a>
+                </li> */}
 
 
             </ui>

@@ -34,7 +34,7 @@ function Experiences() {
 
                     <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                         <img className='w-15 mx-auto' src={NetCore} alt=".NetCore"/>
-                        <text className='my-4 group-hover:hidden duration-300'>.Net Core</text>
+                        <text className='my-4 group-hover:hidden duration-300'>.NET Core</text>
                         <Link to='/.netcore'>
                             <button className='hidden group-hover:flex duration-300 text-gray-100 border-3 my-1 items-center hover:bg-amber-700 mx-auto' >
                                 View Projects <HiArrowNarrowRight className='ml-2'/>

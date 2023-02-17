@@ -11,10 +11,8 @@ function Home() {
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full text-gray-300'>
             <p className='text-amber-700 text-2xl'>My name is,</p>
             <p className='text-4xl font-bold text-[#ccd6f6]'>Yasin Habib.</p>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p className='text-[#8892b0] py-4 max-w-[700px]'>I am a Mechanical Engineer switched career into Software Development. I specilize in building backend applications using .NET Core such as using Entity Frameworks, WPF, and React.js to build websites and more. 
+                Currently I am focused on improving my skills further into .NET development, React.js and Python.</p>
                 <br></br>
             <div>
                 <Link to='/projects'>
