@@ -19,15 +19,15 @@ function NetCoreProjects() {
             </div>
 
 
-            {/* Project: MKTFY backend */}
+            {/* Project: MKTFY frontend */}
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4 overflow-y'>
-                <div style={{backgroundImage: `url(${MKTFYbackend})`}} 
+                <div style={{backgroundImage: `url(${MKTFY})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover effects */}
                     <div className=' opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Entity Framework Core
+                            MarketForYou Frontend
                         </span>
                         <div>
                             <a href='https://github.com/YasHabib/MarketPlace_For_You' target={'_blank'}>
@@ -40,10 +40,9 @@ function NetCoreProjects() {
                     </div>
                 </div>
                 <div>
-                    <p><b>Name:</b> MarketForYou: Backend
+                    <p><b>Name:</b> MarketForYou Frontend
                         <br/>
-                        <b>Description:</b> Backend application for an E-commerce site build using ASP.NET Core Web API and Entity Framework Core. This application performs complex CRUD operations and returns the endpoints as RESTful APIs using Swagger UI. 
-                        Other services used are SendGrid for sending welcome email upon a user has registered in the system, and AWS for CI/CD and database storage.
+                        <b>Description:</b> A frontend application of a E-commerce site using React.js. Currently in progress and will be connected to the RESTful APIs created in MarketForYou: Backend
                     </p>
                 </div>
             </div>
