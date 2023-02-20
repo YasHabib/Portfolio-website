@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import MKTFY from '../assets/MKTFY.png'
 import MKTFYbackend from '../assets/E-commerce.png'
 import ChatWPF from '../assets/chat.png'
+import Inventory from '../assets/Inventory.png'
 
 
 function NetCoreProjects() {
   return (
-    <div name='netCoreProjects' className='w-full md:h-screen text-gray-300 bg-[#0D0C4B]'>
+    <div name='netCoreProjects' className='w-full md:h-full text-gray-300 bg-[#0D0C4B] overflow-y-scroll'>
         <Navbar/>
         {/* Containers */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -27,7 +27,7 @@ function NetCoreProjects() {
                     {/* Hover effects */}
                     <div className=' opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Entity Framework Core
+                            MaketForYou: Backend
                         </span>
                         <div>
                             <a href='https://github.com/YasHabib/MarketPlace_For_You' target={'_blank'}>
@@ -79,6 +79,37 @@ function NetCoreProjects() {
                 </div>
             </div>
             {/* End of WPF Chat application */}
+
+            <br/><br/>
+            {/* Project: Inventory Management System*/}
+            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
+                <div style={{backgroundImage: `url(${Inventory})`}} 
+                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+
+                    {/* Hover effects */}
+                    <div className=' opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Inventory Management System
+                        </span>
+                        <div>
+                            <a href='https://github.com/YasHabib/ChatApp-WPF/tree/development' target={'_blank'}>
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Github</button>
+                            </a>
+                            {/* <a href='/'>
+                                <button></button>
+                            </a> */}
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p><b>Name:</b> Inventory Management System (in-progress)
+                        <br/>
+                        <b>Description:</b> An inventory management system web application being built using .NET's Blazor Server App. This can be used to add inventories and products. Pending will be creating authentication using ASP.NET Authenticate and purchase. 
+                    </p>
+                </div>
+            </div>
+            {/* End of IMS */}
+
 
             
 
