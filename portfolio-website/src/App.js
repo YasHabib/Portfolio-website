@@ -13,11 +13,7 @@ const route = createBrowserRouter([
   { path: '/projects',element: <Experiences/> },
   { path: '/.netcore',element: <NetCoreProjects/> },
   { path: '/contact',element: <Contact/> },
-<<<<<<< HEAD
-  {path:'/reactjs',element: <ReactProjects/>}
-=======
   { path: '/reactjs',element: <ReactjsProjects/> }
->>>>>>> development
   ])
 
 

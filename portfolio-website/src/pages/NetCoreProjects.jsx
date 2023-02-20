@@ -2,20 +2,11 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import MKTFYbackend from '../assets/E-commerce.png'
 import ChatWPF from '../assets/chat.png'
-<<<<<<< HEAD
-import IMS from '../assets/Inventory.png'
-=======
 import Inventory from '../assets/Inventory.png'
->>>>>>> development
-
 
 function NetCoreProjects() {
   return (
-<<<<<<< HEAD
-    <div name='netCoreProjects' className='w-full md:h-full text-gray-300 bg-[#0D0C4B] overflow-y-auto'>
-=======
     <div name='netCoreProjects' className='w-full md:h-full text-gray-300 bg-[#0D0C4B] overflow-y-scroll'>
->>>>>>> development
         <Navbar/>
         {/* Containers */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -35,11 +26,6 @@ function NetCoreProjects() {
                     {/* Hover effects */}
                     <div className=' opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-<<<<<<< HEAD
-                            MarketForYou: Backend
-=======
-                            MaketForYou: Backend
->>>>>>> development
                         </span>
                         <div>
                             <a href='https://github.com/YasHabib/MarketPlace_For_You' target={'_blank'}>
@@ -93,16 +79,10 @@ function NetCoreProjects() {
             {/* End of WPF Chat application */}
 
             <br/><br/>
-<<<<<<< HEAD
-            {/* Project: IMS */}
-            <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
-                <div style={{backgroundImage: `url(${IMS})`}} 
-=======
             {/* Project: Inventory Management System*/}
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
                 <div style={{backgroundImage: `url(${Inventory})`}} 
->>>>>>> development
-                className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
 
                     {/* Hover effects */}
                     <div className=' opacity-0 group-hover:opacity-100'>
@@ -120,14 +100,6 @@ function NetCoreProjects() {
                     </div>
                 </div>
                 <div>
-<<<<<<< HEAD
-                    <p><b>Name:</b> Inventory Management System
-                        <br/>
-                        <b>Description:</b> An inventory Management system built using Blazor Server App. A user can add/remove/edit inventories and product. Currently in work-in-progress.
-                    </p>
-                </div>
-            </div> <br/>
-=======
                     <p><b>Name:</b> Inventory Management System (in-progress)
                         <br/>
                         <b>Description:</b> An inventory management system web application being built using .NET's Blazor Server App. This can be used to add inventories and products. Pending will be creating authentication using ASP.NET Authenticate and purchase. 
@@ -135,8 +107,6 @@ function NetCoreProjects() {
                 </div>
             </div>
             {/* End of IMS */}
-
->>>>>>> development
 
             
 
