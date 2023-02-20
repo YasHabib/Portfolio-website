@@ -47,7 +47,11 @@ function Experiences() {
                     </div>
 
                     <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+<<<<<<< HEAD
                         <img className='w-15 mx-auto' src={ReactJS} alt=".NetCore"/>
+=======
+                        <img className='w-15 mx-auto' src={ReactJS} alt="reactjs"/>
+>>>>>>> development
                         <text className='my-4 group-hover:hidden duration-300'>React.js</text>
                         <Link to='/reactjs'>
                             <button className='hidden group-hover:flex duration-300 text-gray-100 border-3 my-1 items-center hover:bg-amber-700 mx-auto' >

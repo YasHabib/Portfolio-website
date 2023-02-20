@@ -4,6 +4,7 @@ import Experiences from "./pages/Experiences";
 import NetCoreProjects from "./pages/NetCoreProjects";
 import ReactProjects from "./pages/ReactProjects";
 import Contact from "./pages/Contact";
+import ReactjsProjects from "./pages/ReactjsProjects";
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 const route = createBrowserRouter([
@@ -12,7 +13,11 @@ const route = createBrowserRouter([
   { path: '/projects',element: <Experiences/> },
   { path: '/.netcore',element: <NetCoreProjects/> },
   { path: '/contact',element: <Contact/> },
+<<<<<<< HEAD
   {path:'/reactjs',element: <ReactProjects/>}
+=======
+  { path: '/reactjs',element: <ReactjsProjects/> }
+>>>>>>> development
   ])
 
 
