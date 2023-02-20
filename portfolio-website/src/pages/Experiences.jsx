@@ -2,7 +2,6 @@ import React from 'react';
 import CSharp from '../assets/c#.png'
 import NetCore from '../assets/netCore.png'
 import SQL from '../assets/sql.png'
-import AWS from '../assets/aws.png'
 import ReactJS from '../assets/reactjs.png'
 import Python from '../assets/python.png'
 import Navbar from '../components/Navbar'
@@ -47,9 +46,14 @@ function Experiences() {
                         <text className='my-4'>SQL</text>
                     </div>
 
-                    <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                        <img className='w-15 mx-auto' src={ReactJS} alt="ReactJS"/>
-                        <text className='my-4'>React.js</text>
+                    <div className='group shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                        <img className='w-15 mx-auto' src={ReactJS} alt=".NetCore"/>
+                        <text className='my-4 group-hover:hidden duration-300'>React.js</text>
+                        <Link to='/reactjs'>
+                            <button className='hidden group-hover:flex duration-300 text-gray-100 border-3 my-1 items-center hover:bg-amber-700 mx-auto' >
+                                View Projects <HiArrowNarrowRight className='ml-2'/>
+                            </button>
+                        </Link>
                     </div>
 
                     <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
